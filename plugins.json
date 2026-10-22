@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-22",
-  "total": 976,
+  "total": 982,
   "platforms": [
     "codex",
     "grok",
@@ -3145,6 +3145,20 @@
       ]
     },
     {
+      "name": "Exotic Car Rental Skills",
+      "url": "https://github.com/sergebulaev/exotic-car-rental-skills",
+      "owner": "sergebulaev",
+      "repo": "exotic-car-rental-skills",
+      "description": "Codex-ready bundle for people renting exotic and luxury cars in the US with a native .codex-plugin manifest and 6 skills that find who rents a given Lamborghini, Ferrari, Rolls-Royce or G-Wagon in a city at published daily rates from a free read-only market data MCP server, work out the real rental cost, compare cars, pick event cars, plan a weekend and check a rental company; also works in Claude Code.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sergebulaev/exotic-car-rental-skills/HEAD/.codex-marketplace/exotic-car-rental-skills/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Fantasy Football Manager",
       "url": "https://github.com/krmisystems/fantasy-football-manager",
       "owner": "krmisystems",
@@ -3921,6 +3935,20 @@
       ]
     },
     {
+      "name": "Revid",
+      "url": "https://github.com/tmakersas/revid-skills",
+      "owner": "tmakersas",
+      "repo": "revid-skills",
+      "description": "Research what goes viral, make finished short-form videos (voice, captions, music, AI footage) and post them to TikTok, YouTube, Instagram and X through Revid's hosted MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/tmakersas/revid-skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Roomcomm",
       "url": "https://github.com/kotinder/codex-roomcomm",
       "owner": "kotinder",
@@ -4551,6 +4579,20 @@
       ]
     },
     {
+      "name": "Deacon Skills",
+      "url": "https://github.com/heydeacon/skills",
+      "owner": "heydeacon",
+      "repo": "skills",
+      "description": "Two agent skills that install the Deacon AI support widget on a site or app, tell it who is signed in, and send it goals such as sign ups, also packaged as a Claude Code plugin marketplace",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/heydeacon/skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "deed.page",
       "url": "https://github.com/f-o-x11/deed-page-skill",
       "owner": "f-o-x11",
@@ -4560,6 +4602,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/f-o-x11/deed-page-skill#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "ego-decision-layer",
+      "url": "https://github.com/jiangkoumo/ego-decision-layer",
+      "owner": "jiangkoumo",
+      "repo": "ego-decision-layer",
+      "description": "Agent skill for ego lite browser automation with a swappable per-step decision model, guarded execution, and schema-validated extraction",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/jiangkoumo/ego-decision-layer#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -4700,6 +4756,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/DRincs-Productions/pixi-vn#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "PlayCanvas Skills",
+      "url": "https://github.com/playcanvas/skills",
+      "owner": "playcanvas",
+      "repo": "skills",
+      "description": "16 portable Agent Skills that teach AI coding agents to build, inspect, and verify PlayCanvas Engine, React, and Web Components applications, also packaged as Claude Code, Codex, and Cursor plugins",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/playcanvas/skills#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -7641,6 +7711,16 @@
       "installation_url": "https://github.com/imatza-rh/mcp-zuul#readme"
     },
     {
+      "name": "mcplytics",
+      "url": "https://github.com/dave8172/mcplytics",
+      "owner": "dave8172",
+      "repo": "mcplytics",
+      "description": "Usage, health and security signals for remote MCP servers from one zero-dependency wrapper that never stores call arguments, plus a check command that audits your own server and says what to fix",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/dave8172/mcplytics#readme"
+    },
+    {
       "name": "md-prompt",
       "url": "https://github.com/nogu66/md-prompt",
       "owner": "nogu66",
@@ -9436,7 +9516,11 @@
       "description": "Claude Code plugin marketplace of terminal tools, including a Sessions pane that shows every open Claude Code window as needs-you, working or done from Claude Code hooks, switches to its Windows Terminal tab on click, and finds closed sessions by meaning to resume them in a new tab",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "installation_url": "https://github.com/tirupathipodugu/termkit#readme"
+      "install_url": "https://raw.githubusercontent.com/tirupathipodugu/termkit/HEAD/plugins/termkit/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
     },
     {
       "name": "ThumbGate",
