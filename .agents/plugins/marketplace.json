@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-23",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3200,6 +3200,23 @@
       "install_url": "https://raw.githubusercontent.com/entropy-data/dataproduct-builder-dbt/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "deed.page",
+      "displayName": "deed.page",
+      "description": "Publish an HTML file or static folder from Codex to a permanent `https://{slug}.deed.page/` URL through the bundled deed.page skill and remote MCP server, with no account.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "agent-skills"
+      ],
+      "owner": "f-o-x11",
+      "repo": "deed-page-skill",
+      "url": "https://github.com/f-o-x11/deed-page-skill",
+      "install_url": "https://raw.githubusercontent.com/f-o-x11/deed-page-skill/HEAD/.codex-plugin/plugin.json",
+      "installation_url": "https://github.com/f-o-x11/deed-page-skill#readme"
+    },
+    {
       "name": "deja",
       "displayName": "deja",
       "description": "Search the coding sessions already on your disk \u2014 Codex, Claude Code, Cursor, opencode and nineteen more \u2014 including work from before it was installed, indexed locally with no model in the loop.",
@@ -4903,21 +4920,6 @@
       "repo": "skills",
       "url": "https://github.com/heydeacon/skills",
       "installation_url": "https://github.com/heydeacon/skills#readme"
-    },
-    {
-      "name": "deed.page",
-      "displayName": "deed.page",
-      "description": "Agent skill that publishes an HTML file or static folder to a permanent public deed.page URL with one curl request and no account",
-      "category": "Agent Skills",
-      "source": "awesome-ai-plugins",
-      "platform": "agent-skills",
-      "ecosystems": [
-        "agent-skills"
-      ],
-      "owner": "f-o-x11",
-      "repo": "deed-page-skill",
-      "url": "https://github.com/f-o-x11/deed-page-skill",
-      "installation_url": "https://github.com/f-o-x11/deed-page-skill#readme"
     },
     {
       "name": "ego-decision-layer",
@@ -11412,6 +11414,21 @@
       "repo": "data-forge",
       "url": "https://github.com/ianktoo/data-forge",
       "installation_url": "https://github.com/ianktoo/data-forge#readme"
+    },
+    {
+      "name": "datawebot",
+      "displayName": "datawebot",
+      "description": "MCP server: hosted, closed-source ecommerce product data server at `https://mcp.datawebot.com/mcp` that searches products across online shops, lists each seller's price for one product with direct shop links, and runs extraction jobs on Amazon, Walmart US and other store pages, with a Claude Code plugin, Gemini CLI extension and agent skill in the repository",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "datawebot",
+      "repo": "datawebot-mcp",
+      "url": "https://github.com/datawebot/datawebot-mcp",
+      "installation_url": "https://github.com/datawebot/datawebot-mcp#readme"
     },
     {
       "name": "DC Hub",
