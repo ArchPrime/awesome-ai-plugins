@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-24",
-  "total": 992,
+  "total": 997,
   "platforms": [
     "codex",
     "grok",
@@ -1888,6 +1888,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/yyykf/spellbook-skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "stacked-prs",
+      "url": "https://github.com/Qabbout/stacked-prs-skill",
+      "owner": "Qabbout",
+      "repo": "stacked-prs-skill",
+      "description": "Agent skill for Claude Code and Codex to split large changes into reviewable PRs, carry fixes through dependent branches, and land them in dependency order with automated Git checks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Qabbout/stacked-prs-skill/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4567,6 +4581,20 @@
       ]
     },
     {
+      "name": "antirea",
+      "url": "https://github.com/MockirDev/antirea",
+      "owner": "MockirDev",
+      "repo": "antirea",
+      "description": "A Claude Code skill to protect projects and dev workspaces against AI reverse engineering and instruction leaks",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/MockirDev/antirea#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "ART Prompt Framework",
       "url": "https://github.com/YourAKShaw/art-prompt-framework",
       "owner": "YourAKShaw",
@@ -4772,6 +4800,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/leeguooooo/memory-use#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "Nitrogen",
+      "url": "https://github.com/mksd0398/nitrogen",
+      "owner": "mksd0398",
+      "repo": "nitrogen",
+      "description": "Agent skill and CLI that scaffold and deploy Shopify embedded apps on Firebase, with one Cloud Function per API resource, Firestore, and admin pages built from Polaris web components, also packaged as a Claude Code plugin marketplace",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/mksd0398/nitrogen#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -8395,6 +8437,16 @@
       "ecosystems": [
         "claude-code"
       ]
+    },
+    {
+      "name": "Orbi",
+      "url": "https://github.com/orbi-build/orbi",
+      "owner": "orbi-build",
+      "repo": "orbi",
+      "description": "Plugin and agent skills for Claude Code, Codex, Cursor, GitHub Copilot and Pi that draft GitHub Issues with testable acceptance criteria and, in repositories that run the open-source Orbi agent, hand them off to be implemented, tested, reviewed by a separate AI session and merged",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/orbi-build/orbi#readme"
     },
     {
       "name": "Orchestrate Task Force",
@@ -13104,6 +13156,20 @@
       "platform": "deepseek-harness",
       "ecosystems": [
         "deepseek-harness"
+      ]
+    },
+    {
+      "name": "Azure DevOps PR Review",
+      "url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2",
+      "owner": "WTLAIB",
+      "repo": "opencode-azure-devops-pr-review-v2",
+      "description": "OpenCode V2 plugin that reviews Azure DevOps Services pull requests from a URL without a local checkout, with separate verification in review/deep modes and comment previews",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "installation_url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2#readme",
+      "ecosystems": [
+        "opencode"
       ]
     },
     {

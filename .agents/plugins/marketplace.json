@@ -2015,6 +2015,21 @@
       "install_url": "https://raw.githubusercontent.com/yyykf/spellbook-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "stacked-prs",
+      "displayName": "stacked-prs",
+      "description": "Agent skill for Claude Code and Codex to split large changes into reviewable PRs, carry fixes through dependent branches, and land them in dependency order with automated Git checks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Qabbout",
+      "repo": "stacked-prs-skill",
+      "url": "https://github.com/Qabbout/stacked-prs-skill",
+      "install_url": "https://raw.githubusercontent.com/Qabbout/stacked-prs-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Staff Engineer Mode",
       "displayName": "Staff Engineer Mode",
       "description": "Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to focused staff-level specialist guidance for AI coding agents.",
@@ -4877,6 +4892,21 @@
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-grok-plugin/HEAD/.grok-plugin/plugin.json"
     },
     {
+      "name": "antirea",
+      "displayName": "antirea",
+      "description": "A Claude Code skill to protect projects and dev workspaces against AI reverse engineering and instruction leaks",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "MockirDev",
+      "repo": "antirea",
+      "url": "https://github.com/MockirDev/antirea",
+      "installation_url": "https://github.com/MockirDev/antirea#readme"
+    },
+    {
       "name": "ART Prompt Framework",
       "displayName": "ART Prompt Framework",
       "description": "Agent skill that turns rough requests into structured, context-rich prompts using the Act As, Request, and Terms framework",
@@ -5100,6 +5130,21 @@
       "repo": "memory-use",
       "url": "https://github.com/leeguooooo/memory-use",
       "installation_url": "https://github.com/leeguooooo/memory-use#readme"
+    },
+    {
+      "name": "Nitrogen",
+      "displayName": "Nitrogen",
+      "description": "Agent skill and CLI that scaffold and deploy Shopify embedded apps on Firebase, with one Cloud Function per API resource, Firestore, and admin pages built from Polaris web components, also packaged as a Claude Code plugin marketplace",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "mksd0398",
+      "repo": "nitrogen",
+      "url": "https://github.com/mksd0398/nitrogen",
+      "installation_url": "https://github.com/mksd0398/nitrogen#readme"
     },
     {
       "name": "nuthinking/skills",
@@ -9005,6 +9050,17 @@
       "repo": "opus-ollama",
       "url": "https://github.com/rsreeju/opus-ollama",
       "install_url": "https://raw.githubusercontent.com/rsreeju/opus-ollama/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Orbi",
+      "displayName": "Orbi",
+      "description": "Plugin and agent skills for Claude Code, Codex, Cursor, GitHub Copilot and Pi that draft GitHub Issues with testable acceptance criteria and, in repositories that run the open-source Orbi agent, hand them off to be implemented, tested, reviewed by a separate AI session and merged",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "owner": "orbi-build",
+      "repo": "orbi",
+      "url": "https://github.com/orbi-build/orbi",
+      "installation_url": "https://github.com/orbi-build/orbi#readme"
     },
     {
       "name": "Orchestrate Task Force",
@@ -14080,6 +14136,21 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
+    },
+    {
+      "name": "Azure DevOps PR Review",
+      "displayName": "Azure DevOps PR Review",
+      "description": "OpenCode V2 plugin that reviews Azure DevOps Services pull requests from a URL without a local checkout, with separate verification in review/deep modes and comment previews",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "ecosystems": [
+        "opencode"
+      ],
+      "owner": "WTLAIB",
+      "repo": "opencode-azure-devops-pr-review-v2",
+      "url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2",
+      "installation_url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2#readme"
     },
     {
       "name": "opencode-cursor",
