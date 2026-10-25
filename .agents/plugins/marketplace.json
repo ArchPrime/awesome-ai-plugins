@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-24",
+  "last_updated": "2026-10-25",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -678,6 +678,21 @@
       "repo": "codex-agents-workflow",
       "url": "https://github.com/TohmaN233/codex-agents-workflow",
       "install_url": "https://raw.githubusercontent.com/TohmaN233/codex-agents-workflow/HEAD/plugins/codex-agents-workflow/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Codex Auto Resume",
+      "displayName": "Codex Auto Resume",
+      "description": "Unofficial Windows app and Codex plugin that waits out Codex usage limits, rate limits and temporary failures, then continues the exact interrupted conversation by itself, with a Dashboard and a tray icon.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "songyb111-gachon",
+      "repo": "codex-auto-resume-windows",
+      "url": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
+      "install_url": "https://raw.githubusercontent.com/songyb111-gachon/codex-auto-resume-windows/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Codex How To",
@@ -2016,7 +2031,7 @@
       "owner": "sno-ai",
       "repo": "sno-station-skills",
       "url": "https://github.com/sno-ai/sno-station-skills",
-      "install_url": "https://raw.githubusercontent.com/sno-ai/sno-station-skills/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/sno-ai/sno-station-skills/HEAD/plugins/sno-station-standalone/.codex-plugin/plugin.json"
     },
     {
       "name": "Spec-Driven Development",
@@ -2827,6 +2842,21 @@
       "repo": "bitbucket-cli",
       "url": "https://github.com/avivsinai/bitbucket-cli",
       "install_url": "https://raw.githubusercontent.com/avivsinai/bitbucket-cli/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "BountyGuard",
+      "displayName": "BountyGuard",
+      "description": "Pre-flight GitHub bounty security scanner and on-chain Proof-of-Escrow MCP verifier that classifies open bounties before AI agents invest compute.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "doomsday-network",
+      "repo": "bounty-guard",
+      "url": "https://github.com/doomsday-network/bounty-guard",
+      "install_url": "https://raw.githubusercontent.com/doomsday-network/bounty-guard/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Build Remote Agent",
@@ -5082,6 +5112,21 @@
       "installation_url": "https://github.com/Jeffallan/claude-skills#readme"
     },
     {
+      "name": "CoMPaSS Prompt Framework",
+      "displayName": "CoMPaSS Prompt Framework",
+      "description": "Agent skill for analysis-first prompting that clarifies intention, assembles consequential prompts from explicit components, and verifies their success criteria",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "YourAKShaw",
+      "repo": "CoMPaSS-prompt-framework",
+      "url": "https://github.com/YourAKShaw/CoMPaSS-prompt-framework",
+      "installation_url": "https://github.com/YourAKShaw/CoMPaSS-prompt-framework#readme"
+    },
+    {
       "name": "conventional-commits-framework",
       "displayName": "conventional-commits-framework",
       "description": "Agent skill for complete, atomic Conventional Commits with every field filled, breaking changes declared explicitly, and one consistent AI co-author trailer, plus commitlint, git hook, and release tooling setup",
@@ -5821,6 +5866,21 @@
       "repo": "AI-Video-Transcriber",
       "url": "https://github.com/wendy7756/AI-Video-Transcriber",
       "install_url": "https://raw.githubusercontent.com/wendy7756/AI-Video-Transcriber/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "ai-agents",
+      "displayName": "ai-agents",
+      "description": "Plugin marketplace for Claude Code and Copilot CLI that installs 30 specialist agents and 104 skills covering the spec-to-ship lifecycle and code review",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "rjmurillo",
+      "repo": "ai-agents",
+      "url": "https://github.com/rjmurillo/ai-agents",
+      "install_url": "https://raw.githubusercontent.com/rjmurillo/ai-agents/HEAD/src/claude/.claude-plugin/plugin.json"
     },
     {
       "name": "ai-companion-time-anchor",
@@ -8747,6 +8807,20 @@
       "repo": "modstage",
       "url": "https://github.com/qualixar/modstage",
       "install_url": "https://raw.githubusercontent.com/qualixar/modstage/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "MoonMind",
+      "displayName": "MoonMind",
+      "description": "Self-hosted app that orchestrates Codex, Claude Code, and OpenCode through durable Temporal workflows, with a dashboard to inspect progress, logs, and artifacts",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "MoonLadderStudios",
+      "repo": "MoonMind",
+      "url": "https://github.com/MoonLadderStudios/MoonMind"
     },
     {
       "name": "mstack",
@@ -14311,6 +14385,36 @@
       "repo": "opencode-azure-devops-pr-review-v2",
       "url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2",
       "installation_url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2#readme"
+    },
+    {
+      "name": "LitOpenCode",
+      "displayName": "LitOpenCode",
+      "description": "OpenCode plans, builds, checks and records each lit task, so the next session picks up from a written handoff",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "ecosystems": [
+        "opencode"
+      ],
+      "owner": "wjgoarxiv",
+      "repo": "litopencode",
+      "url": "https://github.com/wjgoarxiv/litopencode",
+      "installation_url": "https://github.com/wjgoarxiv/litopencode#readme"
+    },
+    {
+      "name": "OpenCode Attention Inbox",
+      "displayName": "OpenCode Attention Inbox",
+      "description": "Independent OpenCode V2 TUI sidebar inbox for pending permissions, questions, and successful unread completions, with navigation-only session switching",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "ecosystems": [
+        "opencode"
+      ],
+      "owner": "YidiDev",
+      "repo": "opencode-attention-inbox",
+      "url": "https://github.com/YidiDev/opencode-attention-inbox",
+      "installation_url": "https://github.com/YidiDev/opencode-attention-inbox#readme"
     },
     {
       "name": "opencode-cursor",

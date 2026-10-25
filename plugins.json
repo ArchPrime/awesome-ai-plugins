@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-24",
-  "total": 1007,
+  "last_updated": "2026-10-25",
+  "total": 1014,
   "platforms": [
     "codex",
     "grok",
@@ -642,6 +642,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/TohmaN233/codex-agents-workflow/HEAD/plugins/codex-agents-workflow/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex Auto Resume",
+      "url": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
+      "owner": "songyb111-gachon",
+      "repo": "codex-auto-resume-windows",
+      "description": "Unofficial Windows app and Codex plugin that waits out Codex usage limits, rate limits and temporary failures, then continues the exact interrupted conversation by itself, with a Dashboard and a tray icon.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/songyb111-gachon/codex-auto-resume-windows/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1891,7 +1905,7 @@
       "description": "Peer review, delegation, handoff and self-improvement skills that give Codex and Claude Code the working habits of a real team.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/sno-ai/sno-station-skills/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/sno-ai/sno-station-skills/HEAD/plugins/sno-station-standalone/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2649,6 +2663,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/avivsinai/bitbucket-cli/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "BountyGuard",
+      "url": "https://github.com/doomsday-network/bounty-guard",
+      "owner": "doomsday-network",
+      "repo": "bounty-guard",
+      "description": "Pre-flight GitHub bounty security scanner and on-chain Proof-of-Escrow MCP verifier that classifies open bounties before AI agents invest compute.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/doomsday-network/bounty-guard/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4759,6 +4787,20 @@
       ]
     },
     {
+      "name": "CoMPaSS Prompt Framework",
+      "url": "https://github.com/YourAKShaw/CoMPaSS-prompt-framework",
+      "owner": "YourAKShaw",
+      "repo": "CoMPaSS-prompt-framework",
+      "description": "Agent skill for analysis-first prompting that clarifies intention, assembles consequential prompts from explicit components, and verifies their success criteria",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/YourAKShaw/CoMPaSS-prompt-framework#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "conventional-commits-framework",
       "url": "https://github.com/YourAKShaw/conventional-commits-framework",
       "owner": "YourAKShaw",
@@ -5446,6 +5488,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "ai-agents",
+      "url": "https://github.com/rjmurillo/ai-agents",
+      "owner": "rjmurillo",
+      "repo": "ai-agents",
+      "description": "Plugin marketplace for Claude Code and Copilot CLI that installs 30 specialist agents and 104 skills covering the spec-to-ship lifecycle and code review",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rjmurillo/ai-agents/HEAD/src/claude/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -8160,6 +8216,19 @@
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "MoonMind",
+      "url": "https://github.com/MoonLadderStudios/MoonMind",
+      "owner": "MoonLadderStudios",
+      "repo": "MoonMind",
+      "description": "Self-hosted app that orchestrates Codex, Claude Code, and OpenCode through durable Temporal workflows, with a dashboard to inspect progress, logs, and artifacts",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
       ]
     },
     {
@@ -13318,6 +13387,34 @@
       "source": "awesome-ai-plugins",
       "platform": "opencode",
       "installation_url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2#readme",
+      "ecosystems": [
+        "opencode"
+      ]
+    },
+    {
+      "name": "LitOpenCode",
+      "url": "https://github.com/wjgoarxiv/litopencode",
+      "owner": "wjgoarxiv",
+      "repo": "litopencode",
+      "description": "OpenCode plans, builds, checks and records each lit task, so the next session picks up from a written handoff",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "installation_url": "https://github.com/wjgoarxiv/litopencode#readme",
+      "ecosystems": [
+        "opencode"
+      ]
+    },
+    {
+      "name": "OpenCode Attention Inbox",
+      "url": "https://github.com/YidiDev/opencode-attention-inbox",
+      "owner": "YidiDev",
+      "repo": "opencode-attention-inbox",
+      "description": "Independent OpenCode V2 TUI sidebar inbox for pending permissions, questions, and successful unread completions, with navigation-only session switching",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "installation_url": "https://github.com/YidiDev/opencode-attention-inbox#readme",
       "ecosystems": [
         "opencode"
       ]
