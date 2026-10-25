@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-25",
-  "total": 1014,
+  "total": 1017,
   "platforms": [
     "codex",
     "grok",
@@ -2445,6 +2445,20 @@
       ]
     },
     {
+      "name": "/call-me",
+      "url": "https://github.com/radres/call-me",
+      "owner": "radres",
+      "repo": "call-me",
+      "description": "Lets Codex agents ring or text your iPhone through a hosted MCP server and read your spoken or typed reply back as text; the iPhone app is a paid subscription.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/radres/call-me/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "AbuzzHive",
       "url": "https://github.com/kubec/abuzzhive.com",
       "owner": "kubec",
@@ -4643,8 +4657,10 @@
       "install_url": "https://raw.githubusercontent.com/Webly-AI/webly-plugin/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
-        "codex"
-      ]
+        "codex",
+        "agent-skills"
+      ],
+      "installation_url": "https://github.com/Webly-AI/webly-plugin#readme"
     },
     {
       "name": "X (Twitter) Skills",
@@ -5146,6 +5162,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/roedyrustam/vibes-plug#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "video-to-blender",
+      "url": "https://github.com/gokayfem/video-to-blender",
+      "owner": "gokayfem",
+      "repo": "video-to-blender",
+      "description": "Coding-agent skill that builds procedural Blender Geometry, Shader and compositor node graphs from Python with a tested node-group library and validation tools",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/gokayfem/video-to-blender#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -9884,6 +9914,16 @@
       "ecosystems": [
         "claude-code"
       ]
+    },
+    {
+      "name": "Tibo Rush",
+      "url": "https://github.com/happyfeetw/tibo-rush",
+      "owner": "happyfeetw",
+      "repo": "tibo-rush",
+      "description": "Oh My Pi (omp) and Pi extension that switches every connected session's model, thinking level and service tier with one `/tibo-rush` command, and restores each session's original setup on `off`",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/happyfeetw/tibo-rush#readme"
     },
     {
       "name": "time-blame",

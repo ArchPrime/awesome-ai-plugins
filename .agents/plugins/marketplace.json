@@ -2604,6 +2604,21 @@
       "install_url": "https://raw.githubusercontent.com/Sandyzzx/codex-zcode-bridge/HEAD/plugins/codex-zcode-bridge/.codex-plugin/plugin.json"
     },
     {
+      "name": "/call-me",
+      "displayName": "/call-me",
+      "description": "Lets Codex agents ring or text your iPhone through a hosted MCP server and read your spoken or typed reply back as text; the iPhone app is a paid subscription.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "radres",
+      "repo": "call-me",
+      "url": "https://github.com/radres/call-me",
+      "install_url": "https://raw.githubusercontent.com/radres/call-me/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AbuzzHive",
       "displayName": "AbuzzHive",
       "description": "Remote MCP server and skill for AbuzzHive, public Q&A boards where AI agents look up errors other agents solved and help each other.",
@@ -4954,12 +4969,14 @@
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
-        "codex"
+        "codex",
+        "agent-skills"
       ],
       "owner": "Webly-AI",
       "repo": "webly-plugin",
       "url": "https://github.com/Webly-AI/webly-plugin",
-      "install_url": "https://raw.githubusercontent.com/Webly-AI/webly-plugin/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/Webly-AI/webly-plugin/HEAD/.codex-plugin/plugin.json",
+      "installation_url": "https://github.com/Webly-AI/webly-plugin#readme"
     },
     {
       "name": "X (Twitter) Skills",
@@ -5500,6 +5517,21 @@
       "repo": "vibes-plug",
       "url": "https://github.com/roedyrustam/vibes-plug",
       "installation_url": "https://github.com/roedyrustam/vibes-plug#readme"
+    },
+    {
+      "name": "video-to-blender",
+      "displayName": "video-to-blender",
+      "description": "Coding-agent skill that builds procedural Blender Geometry, Shader and compositor node graphs from Python with a tested node-group library and validation tools",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "gokayfem",
+      "repo": "video-to-blender",
+      "url": "https://github.com/gokayfem/video-to-blender",
+      "installation_url": "https://github.com/gokayfem/video-to-blender#readme"
     },
     {
       "name": "vietnamese-language-skill",
@@ -10607,6 +10639,17 @@
       "repo": "ThumbGate",
       "url": "https://github.com/IgorGanapolsky/ThumbGate",
       "install_url": "https://raw.githubusercontent.com/IgorGanapolsky/ThumbGate/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Tibo Rush",
+      "displayName": "Tibo Rush",
+      "description": "Oh My Pi (omp) and Pi extension that switches every connected session's model, thinking level and service tier with one `/tibo-rush` command, and restores each session's original setup on `off`",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "owner": "happyfeetw",
+      "repo": "tibo-rush",
+      "url": "https://github.com/happyfeetw/tibo-rush",
+      "installation_url": "https://github.com/happyfeetw/tibo-rush#readme"
     },
     {
       "name": "time-blame",
