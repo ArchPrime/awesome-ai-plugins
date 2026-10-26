@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-26",
-  "total": 1019,
+  "total": 1020,
   "platforms": [
     "codex",
     "grok",
@@ -13526,6 +13526,20 @@
       "installation_url": "https://github.com/programmer-1998/RTL_OpenCode#readme",
       "ecosystems": [
         "opencode"
+      ]
+    },
+    {
+      "name": "Maskbolt",
+      "url": "https://github.com/skulitom/Maskbolt",
+      "owner": "skulitom",
+      "repo": "Maskbolt",
+      "description": "Claude Code plugin for Maskbolt, Segment Anything (SAM) on the CPU as a local MCP server and skill that cuts objects out of images as transparent PNGs, finds and counts every object, and exports masks and SVG or JSON outlines, with no Python, no GPU and nothing uploaded (needs the maskbolt binary)",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/skulitom/Maskbolt/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     }
   ]
