@@ -514,6 +514,7 @@ Individually installable Agent Skills collections, rather than one client-specif
 - [opencode-models-discovery](https://github.com/yuhp/opencode-models-discovery) - OpenCode plugin that dynamically discovers models from OpenAI-compatible providers and injects them into provider config with filtering and metadata enrichment.
 - [opencode-nexus](https://github.com/mohammad154/opencode-nexus) - OpenCode plugin with a fixed three-agent execution workflow, conditional planning advice, fresh impact analysis, deterministic verification, and durable run state.
 - [opencode-openai-compact](https://github.com/partment/opencode-openai-compact) - OpenCode plugin that uses OpenAI Responses API native compaction v2 and stores checkpoints in SQLite.
+- [opencode-plugin-compat](https://github.com/oakimov/opencode-plugin-compat) - Compatibility bridge that runs unmodified OpenCode plugins on MiMo, Kilo, pi, oh-my-pi, and DeepSeek Harness hosts.
 - [opencode-plugin-loop](https://github.com/jkrandom-sudo/opencode-plugin-loop) - OpenCode plugin adding a /loop command that runs prompts on fixed, adaptive, or one-shot schedules per session.
 - [opencode-plugin-peers](https://github.com/jkrandom-sudo/opencode-plugin-peers) - OpenCode plugin for cross-session messaging: independent instances on the same machine discover each other and exchange plain-text messages.
 - [opencode-see-image](https://github.com/alfaoz/opencode-see-image) - OpenCode plugin that gives non-vision models image and screenshot understanding by routing attachments to a vision-capable model.
@@ -1094,6 +1095,8 @@ submitting a repository.
 OpenCode plugins are npm packages or local directories registered in `opencode.json(c)` (`plugins`) and installed with `opencode plugin add`. Add verified community plugins here in alphabetical order. The catalog records the `opencode` platform with repository and documentation links and omits any manifest-URL `install_url`: OpenCode resolves packages through its own installer, so no client-specific install target applies.
 
 - [Azure DevOps PR Review](https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2) - OpenCode V2 plugin that reviews Azure DevOps Services pull requests from a URL without a local checkout, with separate verification in review/deep modes and comment previews.
+- [cursor-opencode-provider](https://github.com/oakimov/cursor-opencode-provider) - OpenCode plugin and AI SDK provider for Cursor subscription models over Cursor's Connect-RPC agent protocol.
+- [devin-opencode-provider](https://github.com/oakimov/devin-opencode-provider) - OpenCode plugin and AI SDK provider for Devin subscription models over Devin's Connect-RPC Cascade protocol.
 - [LitOpenCode](https://github.com/wjgoarxiv/litopencode) - OpenCode plans, builds, checks and records each lit task, so the next session picks up from a written handoff.
 - [OpenCode Attention Inbox](https://github.com/YidiDev/opencode-attention-inbox) - Independent OpenCode V2 TUI sidebar inbox for pending permissions, questions, and successful unread completions, with navigation-only session switching.
 - [opencode-cursor](https://github.com/Nomadcxx/opencode-cursor) - OpenCode plugin for Cursor subscription models with streaming, thinking, tool calls, MCP support, and browser login through Cursor CLI or API-key authentication through the SDK.
