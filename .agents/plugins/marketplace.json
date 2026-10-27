@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-27",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -6312,14 +6312,14 @@
       "description": "16 skills, 9 rules, snippets, templates, and smoke-tested examples for Blender Python add-on and scripting work with correct 4.5 LTS and 5.2 LTS APIs, installable as a Claude Code plugin and usable from Cursor",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "TMHSDigital",
       "repo": "Blender-Developer-Tools",
       "url": "https://github.com/TMHSDigital/Blender-Developer-Tools",
-      "install_url": "https://raw.githubusercontent.com/TMHSDigital/Blender-Developer-Tools/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/TMHSDigital/Blender-Developer-Tools/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "BPMN Mapper",
@@ -9632,6 +9632,10 @@
       "description": "Open-source library of 1174 plain-markdown agent skills for Claude Code, Codex, Gemini, and Cursor, covering professional and life tasks with built-in quality checks and anti-patterns",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
       "owner": "mohitagw15856",
       "repo": "pm-claude-skills",
       "url": "https://github.com/mohitagw15856/pm-claude-skills",
@@ -10072,6 +10076,21 @@
       "repo": "second-claude-code",
       "url": "https://github.com/unclejobs-ai/second-claude-code",
       "install_url": "https://raw.githubusercontent.com/unclejobs-ai/second-claude-code/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "second-brain-starter-kit",
+      "displayName": "second-brain-starter-kit",
+      "description": "A collection of 234 Claude Code skills installable as a plugin marketplace, covering memory, verification gates, retrospectives, and session handoff workflows",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "tonydzi",
+      "repo": "second-brain-starter-kit",
+      "url": "https://github.com/tonydzi/second-brain-starter-kit",
+      "install_url": "https://raw.githubusercontent.com/tonydzi/second-brain-starter-kit/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "security-mcp",
@@ -11547,6 +11566,21 @@
       "url": "https://github.com/leeguooooo/bitwarden-use"
     },
     {
+      "name": "BlockVectra",
+      "displayName": "BlockVectra",
+      "description": "MCP server: access EVM RPC, indexed data and developer documentation over hosted HTTP or a local stdio bridge, with keyless docs/discovery, chain-specific RPC access and API-key data tools",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "blockvectra",
+      "repo": "mcp",
+      "url": "https://github.com/blockvectra/mcp",
+      "installation_url": "https://github.com/blockvectra/mcp#readme"
+    },
+    {
       "name": "bookstack-mcp",
       "displayName": "bookstack-mcp",
       "description": "MCP server for searching, reading, and managing BookStack wiki content from AI assistants",
@@ -11743,6 +11777,21 @@
       "repo": "claude-fuer-deutsches-recht",
       "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
       "installation_url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht#readme"
+    },
+    {
+      "name": "Clawifi",
+      "displayName": "Clawifi",
+      "description": "Claude Code plugin and MCP server for the hosted Clawifi API, giving agents web search, page fetch and scrape (including PDFs), site mapping, crawling and question-focused passage extraction",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "ReARCLabs",
+      "repo": "clawifi-claude-plugin",
+      "url": "https://github.com/ReARCLabs/clawifi-claude-plugin",
+      "install_url": "https://raw.githubusercontent.com/ReARCLabs/clawifi-claude-plugin/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "clawock",
