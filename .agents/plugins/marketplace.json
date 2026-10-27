@@ -5208,6 +5208,21 @@
       "installation_url": "https://github.com/cooper-email/cooper-email#readme"
     },
     {
+      "name": "de-anthropocentric-research-engine",
+      "displayName": "de-anthropocentric-research-engine",
+      "description": "271 research skills that take a research direction from first question to tested hypothesis: 51 tactics drive 216 atomic steps across literature synthesis, gap validation, hypothesis formation, experiment design and result interpretation, backing out when the evidence is too thin instead of marching a fixed pipeline - the plan is approved before anything runs, checkpoints resume after an interruption, and one command installs it into any agent with no runtime and no API key",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "yogsoth-ai",
+      "repo": "de-anthropocentric-research-engine",
+      "url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
+      "installation_url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine#readme"
+    },
+    {
       "name": "Deacon Skills",
       "displayName": "Deacon Skills",
       "description": "Two agent skills that install the Deacon AI support widget on a site or app, tell it who is signed in, and send it goals such as sign ups, also packaged as a Claude Code plugin marketplace",
@@ -14810,21 +14825,6 @@
       "repo": "RTL_OpenCode",
       "url": "https://github.com/programmer-1998/RTL_OpenCode",
       "installation_url": "https://github.com/programmer-1998/RTL_OpenCode#readme"
-    },
-    {
-      "name": "de-anthropocentric-research-engine",
-      "displayName": "de-anthropocentric-research-engine",
-      "description": "271 research skills that take a research direction from first question to tested hypothesis: 51 tactics drive 216 atomic steps across literature synthesis, gap validation, hypothesis formation, experiment design and result interpretation, backing out when the evidence is too thin instead of marching a fixed pipeline - the plan is approved before anything runs, checkpoints resume after an interruption, and one command installs it into any agent with no runtime and no API key",
-      "category": "Agent Skills",
-      "source": "awesome-ai-plugins",
-      "platform": "agent-skills",
-      "ecosystems": [
-        "agent-skills"
-      ],
-      "owner": "yogsoth-ai",
-      "repo": "de-anthropocentric-research-engine",
-      "url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine",
-      "installation_url": "https://github.com/yogsoth-ai/de-anthropocentric-research-engine#readme"
     }
   ]
 }
