@@ -10765,13 +10765,13 @@
     },
     {
       "name": "Bilinc",
-      "url": "https://github.com/atakanelik34/Bilinc",
-      "owner": "atakanelik34",
-      "repo": "Bilinc",
+      "url": "https://github.com/ReARCLabs/bilinc",
+      "owner": "ReARCLabs",
+      "repo": "bilinc",
       "description": "Persistent memory for AI agents over MCP: commit, recall, revise, snapshot and roll back agent state with provenance, shared across Claude Code, Claude Desktop and other MCP clients",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "installation_url": "https://github.com/atakanelik34/Bilinc#readme"
+      "installation_url": "https://github.com/ReARCLabs/bilinc#readme"
     },
     {
       "name": "bitwarden-use",
