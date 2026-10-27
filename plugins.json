@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-27",
-  "total": 1040,
+  "total": 1041,
   "platforms": [
     "codex",
     "grok",
@@ -4957,6 +4957,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/Enki-DEV-expert/engineering-standards#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "grcskills",
+      "url": "https://github.com/better-isms/grcskills",
+      "owner": "better-isms",
+      "repo": "grcskills",
+      "description": "64 open GRC skills that draft risk registers, statements of applicability, audit prep and NIST RMF documents, leaving every sign-off to the practitioner, with an optional framework lookup MCP server",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/better-isms/grcskills#readme",
       "ecosystems": [
         "agent-skills"
       ]

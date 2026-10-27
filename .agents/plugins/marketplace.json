@@ -5298,6 +5298,21 @@
       "installation_url": "https://github.com/Enki-DEV-expert/engineering-standards#readme"
     },
     {
+      "name": "grcskills",
+      "displayName": "grcskills",
+      "description": "64 open GRC skills that draft risk registers, statements of applicability, audit prep and NIST RMF documents, leaving every sign-off to the practitioner, with an optional framework lookup MCP server",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "better-isms",
+      "repo": "grcskills",
+      "url": "https://github.com/better-isms/grcskills",
+      "installation_url": "https://github.com/better-isms/grcskills#readme"
+    },
+    {
       "name": "image-use",
       "displayName": "image-use",
       "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
