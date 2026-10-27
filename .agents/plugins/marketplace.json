@@ -2156,6 +2156,21 @@
       "install_url": "https://raw.githubusercontent.com/f0d010c/stark/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "SteinWall",
+      "displayName": "SteinWall",
+      "description": "Cost brake, action guard, loop rescue and extension scanner that run locally as Codex hooks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "maxxstm",
+      "repo": "steinwall",
+      "url": "https://github.com/maxxstm/steinwall",
+      "install_url": "https://raw.githubusercontent.com/maxxstm/steinwall/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "stickypane",
       "displayName": "stickypane",
       "description": "A terminal board Codex writes to and you read, with kanban, checklists, charts, forms and live logs kept as plain Markdown files.",
