@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-27",
-  "total": 1038,
+  "total": 1039,
   "platforms": [
     "codex",
     "grok",
@@ -390,6 +390,21 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/BB-84C/bgs-modding-superpowers/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Bindry",
+      "url": "https://github.com/bindryai/Plugins/tree/codex-distribution",
+      "owner": "bindryai",
+      "repo": "Plugins",
+      "description": "Compiles public or workspace Binders into version-pinned agent skills, checks instruction drift, and supports optional MCP-based live mode.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bindryai/Plugins/codex-distribution/.codex-plugin/plugin.json",
+      "source_ref": "codex-distribution",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -10223,11 +10238,7 @@
       "description": "Validate VAST, VMAP, and DAAST ad tags against IAB Tech Lab specs via Gemini CLI, Claude Code, and a hosted MCP server",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/aleksUIX/vastlint/HEAD/.claude-plugin/plugin.json",
-      "platform": "claude-code",
-      "ecosystems": [
-        "claude-code"
-      ]
+      "installation_url": "https://github.com/aleksUIX/vastlint#readme"
     },
     {
       "name": "vibekit",
