@@ -380,6 +380,21 @@
       "install_url": "https://raw.githubusercontent.com/minsu0707/auto-pilot/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "AW-1 Circuit Breaker",
+      "displayName": "AW-1 Circuit Breaker",
+      "description": "Application-layer AST and argument policy gate for agent tool calls that checks configured rules before Python execution; complements, but does not replace, operating-system sandbox isolation.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MvikManners",
+      "repo": "aw1-circuit-breaker",
+      "url": "https://github.com/MvikManners/aw1-circuit-breaker",
+      "install_url": "https://raw.githubusercontent.com/MvikManners/aw1-circuit-breaker/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "BABOK Analyst",
       "displayName": "BABOK Analyst",
       "description": "BABOK v3 business analysis agent with 16 MCP tools, a 9-stage pipeline, and human-in-the-loop approval gates.",
@@ -11554,21 +11569,6 @@
       "repo": "authority-md-plugin",
       "url": "https://github.com/gareth-hoyle/authority-md-plugin",
       "installation_url": "https://github.com/gareth-hoyle/authority-md-plugin#readme"
-    },
-    {
-      "name": "aw1-breaker",
-      "displayName": "aw1-breaker",
-      "description": "Deterministic out-of-band execution circuit breaker and AST safety proxy for autonomous AI agent tool calls",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "MvikManners",
-      "repo": "aw1-circuit-breaker",
-      "url": "https://github.com/MvikManners/aw1-circuit-breaker",
-      "install_url": "https://raw.githubusercontent.com/MvikManners/aw1-circuit-breaker/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Azure Cosmos DB Agent Kit",

@@ -368,6 +368,20 @@
       ]
     },
     {
+      "name": "AW-1 Circuit Breaker",
+      "url": "https://github.com/MvikManners/aw1-circuit-breaker",
+      "owner": "MvikManners",
+      "repo": "aw1-circuit-breaker",
+      "description": "Application-layer AST and argument policy gate for agent tool calls that checks configured rules before Python execution; complements, but does not replace, operating-system sandbox isolation.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/MvikManners/aw1-circuit-breaker/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "BABOK Analyst",
       "url": "https://github.com/GSkuza/BABOK_ANALYST",
       "owner": "GSkuza",
@@ -10765,20 +10779,6 @@
       "installation_url": "https://github.com/gareth-hoyle/authority-md-plugin#readme",
       "ecosystems": [
         "mcp"
-      ]
-    },
-    {
-      "name": "aw1-breaker",
-      "url": "https://github.com/MvikManners/aw1-circuit-breaker",
-      "owner": "MvikManners",
-      "repo": "aw1-circuit-breaker",
-      "description": "Deterministic out-of-band execution circuit breaker and AST safety proxy for autonomous AI agent tool calls",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/MvikManners/aw1-circuit-breaker/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
       ]
     },
     {
