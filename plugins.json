@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-28",
-  "total": 1051,
+  "total": 1052,
   "platforms": [
     "codex",
     "grok",
@@ -4943,6 +4943,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/heydeacon/skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "docx-cli",
+      "url": "https://github.com/kklimuk/docx-cli",
+      "owner": "kklimuk",
+      "repo": "docx-cli",
+      "description": "Agent skill/CLI for AI agents to work with Word documents without breaking their formatting: fill in forms, update tables, add images, restyle, write reports, and redline with tracked changes and comments",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/kklimuk/docx-cli#readme",
       "ecosystems": [
         "agent-skills"
       ]

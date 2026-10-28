@@ -5283,6 +5283,21 @@
       "installation_url": "https://github.com/heydeacon/skills#readme"
     },
     {
+      "name": "docx-cli",
+      "displayName": "docx-cli",
+      "description": "Agent skill/CLI for AI agents to work with Word documents without breaking their formatting: fill in forms, update tables, add images, restyle, write reports, and redline with tracked changes and comments",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "kklimuk",
+      "repo": "docx-cli",
+      "url": "https://github.com/kklimuk/docx-cli",
+      "installation_url": "https://github.com/kklimuk/docx-cli#readme"
+    },
+    {
       "name": "ego-decision-layer",
       "displayName": "ego-decision-layer",
       "description": "Agent skill for ego lite browser automation with a swappable per-step decision model, guarded execution, and schema-validated extraction",
