@@ -1610,6 +1610,21 @@
       "install_url": "https://raw.githubusercontent.com/jananthan30/ml-pipeline/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Multi-LLM",
+      "displayName": "Multi-LLM",
+      "description": "Parallel plan, code, and commit reviews across 19 coding CLIs, with validated findings, task generation, implementation, and automated revision.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "beastlabai",
+      "repo": "multi-llm-plugin",
+      "url": "https://github.com/beastlabai/multi-llm-plugin",
+      "install_url": "https://raw.githubusercontent.com/beastlabai/multi-llm-plugin/HEAD/packaging/codex/multi-llm/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts with a persistent punch list, parked decisions, and reviewable run history.",
