@@ -11113,6 +11113,21 @@
       "install_url": "https://raw.githubusercontent.com/ohad6k/VibeRaven/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "virtual-team",
+      "displayName": "virtual-team",
+      "description": "Claude Code and Codex plugin providing slash commands, skills, agents, and hooks that run a TDD feature pipeline from spec to shipping",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ovargas",
+      "repo": "virtual-team",
+      "url": "https://github.com/ovargas/virtual-team",
+      "install_url": "https://raw.githubusercontent.com/ovargas/virtual-team/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Web Search MCP",
       "displayName": "Web Search MCP",
       "description": "Comprehensive FastMCP server giving LLMs real-time web access across search engines (DuckDuckGo, Exa), social platforms (Reddit, Hacker News, GitHub, X, LinkedIn), and academic tools (arXiv, Wikipedia), with SSRF-protected URL fetching",

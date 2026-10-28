@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-28",
-  "total": 1048,
+  "total": 1049,
   "platforms": [
     "codex",
     "grok",
@@ -10351,6 +10351,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ohad6k/VibeRaven/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "virtual-team",
+      "url": "https://github.com/ovargas/virtual-team",
+      "owner": "ovargas",
+      "repo": "virtual-team",
+      "description": "Claude Code and Codex plugin providing slash commands, skills, agents, and hooks that run a TDD feature pipeline from spec to shipping",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ovargas/virtual-team/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
