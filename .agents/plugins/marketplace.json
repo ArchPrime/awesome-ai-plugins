@@ -3437,6 +3437,21 @@
       "install_url": "https://raw.githubusercontent.com/vshulcz/deja-vu/HEAD/codex-plugin/.codex-plugin/plugin.json"
     },
     {
+      "name": "DESIGN:OS 3D Blender",
+      "displayName": "DESIGN:OS 3D Blender",
+      "description": "Source-available skills and MCP server that let Codex model, render and verify mechanical parts natively in Blender 5.2 LTS, licensed under PolyForm Shield.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jangtrinh",
+      "repo": "design-os-3d-blender",
+      "url": "https://github.com/jangtrinh/design-os-3d-blender",
+      "install_url": "https://raw.githubusercontent.com/jangtrinh/design-os-3d-blender/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "dex",
       "displayName": "dex",
       "description": "Agent skills for warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance.",
@@ -4994,6 +5009,21 @@
       "repo": "plugins",
       "url": "https://github.com/val-town/plugins",
       "install_url": "https://raw.githubusercontent.com/val-town/plugins/HEAD/plugin/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "varg",
+      "displayName": "varg",
+      "description": "How to make any AI video: find the skill, the options to show and the steps (no key needed), with the keyless varg how to MCP and the varg MCP for video, image, voice and music generation.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "vargHQ",
+      "repo": "skills",
+      "url": "https://github.com/vargHQ/skills",
+      "install_url": "https://raw.githubusercontent.com/vargHQ/skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "VidSeeds.ai",
