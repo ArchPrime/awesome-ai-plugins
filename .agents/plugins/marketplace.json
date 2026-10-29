@@ -2213,7 +2213,7 @@
       "owner": "LeeSwallow",
       "repo": "stickypane",
       "url": "https://github.com/LeeSwallow/stickypane",
-      "install_url": "https://raw.githubusercontent.com/LeeSwallow/stickypane/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/LeeSwallow/stickypane/HEAD/plugin/.codex-plugin/plugin.json"
     },
     {
       "name": "Stop That Shit",
