@@ -15054,6 +15054,21 @@
       "installation_url": "https://github.com/WTLAIB/opencode-azure-devops-pr-review-v2#readme"
     },
     {
+      "name": "better-opencode-tools",
+      "displayName": "better-opencode-tools",
+      "description": "Three OpenCode plugins that replace the built-in glob, grep and read tools, keeping output inside the host budget with a continuation offset, enforcing search deadlines and returning results in a stable order",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "ecosystems": [
+        "opencode"
+      ],
+      "owner": "dhaern",
+      "repo": "better-opencode-tools",
+      "url": "https://github.com/dhaern/better-opencode-tools",
+      "installation_url": "https://github.com/dhaern/better-opencode-tools#readme"
+    },
+    {
       "name": "cursor-opencode-provider",
       "displayName": "cursor-opencode-provider",
       "description": "OpenCode plugin and AI SDK provider for Cursor subscription models over Cursor's Connect-RPC agent protocol",
